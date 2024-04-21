@@ -28,10 +28,10 @@ def get_upcoming_birthdays(users):
 # Приклад виконання:
 users = [
     {"name": "Viktor Lisov", "birthday": "1985.04.19"},
-    {"name": "Lilia Anisimova", "birthday": "2000.04.19"},
-    {"name": "Dmitrii Filipof", "birthday": "2024.04.20"},
+    {"name": "Lilia Anisimova", "birthday": "2000.04.23"},
+    {"name": "Dmitrii Filipof", "birthday": "2024.04.24"},
     {"name": "Nikola Rvanov", "birthday": "1990.01.27"},
-    {"name": "Anrey Oldest", "birthday": "1690.04.19"}
+    {"name": "Anrey Oldest", "birthday": "1690.04.25"}
 ]
 
 upcoming_birthdays = get_upcoming_birthdays(users)
